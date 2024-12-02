@@ -13,4 +13,4 @@ inFile.close()
 data = []
 for line in inData:
     data.append(line.rstrip('\n'))
-logger.info("Successfully imported {len(data)} lines of data")
+logger.info(f"Successfully imported {len(data)} lines of data")
