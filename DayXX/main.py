@@ -4,7 +4,7 @@ import logging
 logging.basicConfig(level=logging.INFO, format="[%(levelname)s] %(message)s")
 logger = logging.getLogger(__name__)
 
-targetInput = "input.txt"
+targetInput = "testinput.txt"
 
 logger.info(f"Running on {targetInput}")
 inPath = os.path.join(os.path.dirname(os.path.abspath(__file__)),
